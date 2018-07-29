@@ -1,0 +1,7 @@
+﻿/*自定义的reset*/
+* { margin: 0; padding: 0; }
+body { font-size: 13px; }
+ol, dl, dt, dd, ul, li { list-style-type: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { border-style: none; }

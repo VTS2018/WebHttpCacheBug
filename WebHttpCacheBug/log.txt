@@ -1,0 +1,8 @@
+发生异常页: http://localhost:38215/httptype/HandlerCss.ashx
+异常信息: 无法既设置 ETag，又从文件生成它。
+Source:System.Web
+StackTrace   在 System.Web.HttpCachePolicy.SetETagFromFileDependencies()
+   在 WebCodeStatistics.httptype.HandlerCss.ProcessRequest(HttpContext context) 位置 e:\F\Code\A\WebHttpCacheBug\WebHttpCacheBug\httptype\HandlerCss.ashx.cs:行号 43
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+方法：SetETagFromFileDependencies
